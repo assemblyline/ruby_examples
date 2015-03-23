@@ -1,0 +1,7 @@
+[application]
+name = "A Simple Example"
+repo = "quay.io/assemblyline/ruby-simple-example"
+
+[build]
+builder = "Ruby"
+version = "2.1.5"
