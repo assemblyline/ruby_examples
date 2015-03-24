@@ -5,3 +5,7 @@ repo = "quay.io/assemblyline/ruby-simple-example"
 [build]
 builder = "Ruby"
 version = "2.1.5"
+
+[process.web]
+command = 'bin/puma'
+ports = ['9292']
